@@ -6,3 +6,4 @@ def index(request):
 
 for i in range(100):
 	print('this is {}'.format(i))
+	print('test')
