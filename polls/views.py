@@ -18,3 +18,5 @@ def results(request,question_id):
     return HttpResponse("You're looking at the results of question {}".format(question_id))
 def vote(request,question_id):
     return HttpResponse("you are voting on question {}".format(question_id))
+
+print('end.....')
