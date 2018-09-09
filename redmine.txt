@@ -1,2 +1,4 @@
 data001 first
 data001 second
+def index(request):
+	Httpresponse('hello python')
